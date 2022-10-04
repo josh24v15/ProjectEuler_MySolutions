@@ -8,7 +8,7 @@
 
 def test_1():
     sum = 0
-    for number in range(1,1001):
+    for number in range(1,1000):
         if number % 3 == 0 or number % 5 == 0:
             sum += number
     return sum
@@ -16,6 +16,6 @@ def test_1():
 print(test_1())
 
 def test_2():
-    return sum([x for x in range(1,1001) if x % 3 == 0 or x % 5 == 0])
+    return sum([x for x in range(1,1000) if x % 3 == 0 or x % 5 == 0])
 
 print(test_2())
