@@ -14,8 +14,10 @@ def test_1():
     return sum
 
 print(test_1())
+#prints 233168
 
 def test_2():
     return sum([x for x in range(1,1000) if x % 3 == 0 or x % 5 == 0])
 
 print(test_2())
+#prints 233168
